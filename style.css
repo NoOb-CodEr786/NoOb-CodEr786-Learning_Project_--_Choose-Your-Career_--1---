@@ -1,0 +1,825 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+body {
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    background-color: rgb(138, 138, 138);
+    max-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+
+.table_container #myTable a
+{
+    display: block;
+    /* margin: 1rem; */
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    /* background-color: aqua; */
+    border: 1px solid rgb(255, 255, 255);
+    padding: 18px;
+}
+
+
+.table_container
+{
+    max-width: 1240px;
+    margin: auto;
+}
+
+#myTable tr:nth-child(even){background-color: #414141;}
+#myTable tr:nth-child(odd){background-color: #555555;}
+
+#myTable tr:hover
+{
+    background-color: rgb(38, 38, 38);
+    color: blue;
+    
+}
+
+#myTable a:hover
+{
+    color: blue;
+    font-weight: 500;
+}
+
+.table_container .content 
+{
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#myTable
+{
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1e2c3e;
+}
+
+.container .loader
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disappear
+{
+    animation: getOut 1s forwards;
+}
+
+@keyframes getOut
+{
+    100%
+    {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.main_container .nav1 {
+    display: flex;
+    position: sticky;
+    padding: 14px 35px 10px 35px;
+    /* margin: 0 50px 0 50px; */
+    justify-content: space-between;
+}
+
+
+
+.main_container .nav1 .left_nav {
+    float: right;
+    display: flex;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 290px;
+    color: white;
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #00ffec, #31ff00);
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 2px rgb(72 69 69 / 32%);
+}
+
+.main_container .nav1 .right {
+    float: left;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 15px;
+    /* border-bottom: 3px solid rgb(255, 255, 255); */
+    width: 498px;
+}
+
+
+.nav1 .right a {
+    text-decoration: none;
+    display: flex;
+    color: #292621;
+    font-size: 13px;
+    margin-left: 27px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.nav1 li {
+    display: inline-block;
+    padding-right: 20px;
+    border-right: 1px solid #e0e2e6;
+
+
+}
+
+.nav1 
+{
+    /* background: rgb(0, 0, 0) */
+    
+}
+
+.main_container .nav1 a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+
+.content_text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-12%,91%);
+    font-size: 31px;
+    text-align: center;
+    text-shadow: 1px 1px 2px white, 0 0 25px #a9a9a9, 0 0 5px #5b5bff;
+    font-weight: 600;
+}
+
+
+.srch_container .main_text {
+    text-align: center;
+    /* position: relative; */
+    /* margin: auto; */
+    color: white;
+    font-size: 2rem;
+    margin-top: 60px;
+    text-shadow: 1px 1px 2px white, 0 0 25px #000000, 0 0 5px blue;
+}
+
+
+
+
+
+
+
+
+.main_vd {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    /* opacity: .6; */
+    z-index: -1;
+    filter: blur(7px);
+}
+
+@media (min-aspect-ration:16/9) {
+    .main_vd {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ration:16/9) {
+    .main_vd {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+.foot 
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20rem;
+    justify-content: space-between;
+    margin: 11rem 0px;
+    padding: 5rem 8rem 2rem 8rem;
+    /* max-width: 1340px; */
+    background: #000000;
+}
+
+.foot .right_side .links
+
+{
+    line-height: 2.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.foot .right_side .links .link
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.foot .right_side .links .link h4{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.foot .right_side .links .link li
+{
+    list-style-type: none;
+}
+
+.foot .right_side .links .link a{
+    background-image: linear-gradient(90deg, #00ffec, #31ff00);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.foot .right_side .links .link a:hover
+{
+    background-image: linear-gradient(90deg, #deff00, #ffb500);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    /* border-bottom: 2px solid red; */
+
+}
+
+.foot .brand_side
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.foot .brand_side .content
+{
+    color: white;
+    font-size: 35px;
+    width: 16rem;
+    text-shadow: 3px 3px 7px rgb(0 255 20);
+}
+
+
+
+.foot .brand_side .copy
+{
+    color: white;
+    margin-top: 5rem;
+}
+
+
+.foot .brand_side .copy a
+{
+    margin-left: 3px;
+    background-image: linear-gradient(90deg, #00ffec, #31ff00);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.foot .brand_side .copy a:hover
+{
+    background-image: linear-gradient(90deg, #deff00, #ffb500);
+    /* border-bottom: 1px solid royalblue; */
+}
+
+.foot .brand_side .main_icons .fa-brands
+{
+    font-size: 20px;
+    margin-left: 3px;
+    background-image: linear-gradient(90deg, #00ffec, #31ff00);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin: 0px 17px 0px 0px;
+}
+
+.foot .brand_side .main_icons .fa-brands:hover
+{
+    background-image: linear-gradient(90deg, #deff00, #ffb500);
+    cursor: pointer;
+
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .container .main_container .nav1 {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_container .nav1 .left_nav {
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .main_container .nav1 .right {
+        display: block;
+    }
+
+    .main_container .nav1
+    {
+        padding: 14px 30px 10px 30px;
+    }
+
+
+    .nav1 li {
+        padding-right: 0px;
+        border-right: none;
+        display: block;
+        margin: 25px;
+
+    }
+
+    .nav1 .right a {
+        text-decoration: none;
+        display: block;
+        color: #292621;
+        font-size: 13px;
+        margin-left: 0px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+
+
+    .srch_container .main_text
+    {
+        font-size: 1rem;
+    }
+
+    .content_text
+    {
+        top: 34%;
+        font-size: 16px;
+    }
+
+    .foot {
+        top: 6rem;
+        gap: 2rem;
+        padding: 5rem 3rem 2rem 4rem;
+    }
+
+    .foot .brand_side .content {
+        font-size: 30px;
+    }
+
+    .foot .brand_side .main_icons .fa-brands {
+        font-size: 15px;
+    }
+
+    .main_icons {
+        margin-top: -20px;
+    }
+
+    .foot .brand_side .copy {
+        display: none;
+    }
+
+    .foot .right_side .links {
+        gap: 4rem;
+    }
+
+}
+
+@media screen and (max-width:430px)
+{
+
+
+    .container .mid_container
+    {
+        max-width: 360px;
+    }
+    .foot {
+        top: 85px;
+        
+    }
+
+    .foot .right_side .links .link h4
+    {
+        font-size: 18px;
+    }
+
+    .foot .right_side .links .link a
+    {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+
+
+
+    /* 4c65v4fx56fg4c------------------------------------------------------xfjxdvxd */
+
+    .srch_container .main_text
+    {
+        font-size: 20px;
+    }
+
+    .content_text
+    {
+        font-size: 17px;
+        top: 41%;
+    }
+
+    .foot
+    {
+        top: 30rem;
+        gap: 2rem;
+        position: absolute;
+        padding: 5rem 3rem 2rem 4rem;
+    }
+
+
+
+    /* sdjfhsd ------------------------------------------------------------------------ fdjglfjg; */
+
+
+    .main_container .nav1 {
+        display: block;
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mid_container .left_mid .left_text .text
+    {
+        font-size: 17px;
+    }
+
+    .nav .nav1 {
+        padding: 14px 25px 10px 25px;
+    }
+
+    .header .nav1 .left_nav {
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .header .nav1 .right {
+        display: block;
+    }
+
+    .nav1 li {
+        padding-right: 0px;
+        border-right: none;
+        display: block;
+        margin: 25px;
+    }
+
+    .nav1 .right a {
+        text-decoration: none;
+        display: block;
+        color: #292621;
+        font-size: 13px;
+        margin-left: 0px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .foot {
+        top: 30rem;
+        gap: 2rem;
+        position: absolute;
+        padding: 5rem 3rem 2rem 4rem;
+    }
+
+    .foot .brand_side .content {
+        font-size: 30px;
+    }
+
+    .foot .brand_side .main_icons .fa-brands {
+        font-size: 15px;
+    }
+
+    .main_icons {
+        margin-top: -20px;
+    }
+
+    .foot .brand_side .copy {
+        display: none;
+    }
+
+    .foot .right_side .links {
+        gap: 4rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:824px) {
+
+    /* ------------------- NAV BAR ----------------------- */
+
+    .mid_container
+    {
+        flex-wrap: wrap-reverse;
+    }
+
+    .mid_container .right_mid .right_pic .up_img img
+    {
+        right: 0rem;
+    }
+
+    .main_container .nav1
+    {
+        padding: 12px 35px 10px 35px;
+    }
+
+    .nav1 .right a
+    {
+        font-size: 10px;
+    }
+
+    .header .nav1 .left_nav
+    {
+        font-size: 14px;
+    }
+    
+    /* ------------------COMPLETE--------------NAV BAR-------------- */
+
+    .srch_container .main_text
+    {
+        font-size: 25px;
+    }
+
+    .content_text
+    {
+        font-size: 20px;
+    }
+
+    /* ----------- MID PART ------------------------ */
+
+    .foot
+    {
+        top: 18rem;
+        padding: 4rem 3rem 3rem 3rem;
+    }
+
+    .foot .brand_side .copy
+    {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .foot .brand_side .main_icons .fa-brands
+    {
+        font-size: 25px;
+    }
+
+    .header .nav1 .right
+    {
+        justify-content: end;
+    }
+
+}
+
+@media (min-width:825px) and (max-width:924px)
+{
+    .mid_container
+    {
+        flex-wrap: wrap-reverse;
+    }
+
+    .mid_container .right_mid .right_pic .up_img img
+    {
+        right: 0rem;
+    }
+
+    .main_container .nav1
+    {
+        padding: 12px 35px 10px 35px;
+    }
+
+    .nav1 .right a
+    {
+        font-size: 12px;
+    }
+
+    .header .nav1 .left_nav
+    {
+        font-size: 14px;
+    }
+
+    .foot
+    {
+        top: 17rem;
+        padding: 4rem 3rem 3rem 3rem;
+    }
+
+    .foot .brand_side .copy
+    {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .foot .brand_side .main_icons .fa-brands
+    {
+        font-size: 25px;
+    }
+
+    .header .nav1 .right
+    {
+        justify-content: end;
+    }
+
+    .srch_container .main_text
+    {
+        font-size: 25px;
+        margin-top: 104px;
+    }
+
+    .content_text
+    {
+        font-size: 21px;
+        top: 21%;
+    }
+    
+}
+
+
+@media (min-width:925px) and (max-width:1279px)
+{
+    .mid_container
+    {
+        flex-wrap: wrap-reverse;
+    }
+
+    .mid_container .right_mid .right_pic .up_img img
+    {
+        right: 0rem;
+    }
+
+    .main_container .nav1
+    {
+        padding: 12px 35px 10px 35px;
+    }
+
+    .nav1 .right a
+    {
+        font-size: 12px;
+    }
+
+    .header .nav1 .left_nav
+    {
+        font-size: 15px;
+    }
+
+    .foot
+    {
+        display: block;
+        top: 14rem;
+        padding: 4rem 3rem 3rem 3rem;
+    }
+
+    .foot .brand_side .copy
+    {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .foot .brand_side .main_icons .fa-brands
+    {
+        font-size: 25px;
+    }
+
+    .header .nav1 .right
+    {
+        justify-content: end;
+    }
+
+    .srch_container .main_text
+    {
+        font-size: 32px;
+        margin-top: 4rem;
+    }
+
+    .content_text
+    {
+        font-size: 24px;
+        top: 30%;
+    }
+    
+}
+
+@media (min-width:925px) and (max-width:1279px)
+{
+    .mid_container
+    {
+        flex-wrap: wrap-reverse;
+    }
+
+    .mid_container .right_mid .right_pic .up_img img
+    {
+        right: 0rem;
+    }
+
+    .main_container .nav1
+    {
+        padding: 12px 35px 10px 35px;
+    }
+
+    .nav1 .right a
+    {
+        font-size: 12px;
+    }
+
+    .header .nav1 .left_nav
+    {
+        font-size: 15px;
+    }
+
+    .foot
+    {
+        display: block;
+        top: 14rem;
+        padding: 4rem 3rem 3rem 3rem;
+    }
+
+    .foot .brand_side .copy
+    {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .foot .brand_side .main_icons .fa-brands
+    {
+        font-size: 25px;
+    }
+
+    .header .nav1 .right
+    {
+        justify-content: end;
+    }
+
+    .srch_container .main_text
+    {
+        font-size: 32px;
+        margin-top: 4rem;
+    }
+
+    .content_text
+    {
+        font-size: 24px;
+        top: 30%;
+    }
+    
+}
