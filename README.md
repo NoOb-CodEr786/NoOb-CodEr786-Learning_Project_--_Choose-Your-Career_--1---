@@ -7,12 +7,21 @@ In this materialistic  era everyone is confused. Confused to find out a suitable
 
 ABOUT THIS WEBSITE!
 -------------------------
-     When the user opens the website  and reach at the homepage the user has has the choice to search about different colleges and universities by their name or class like engineering collegesor medical college etc.
-     
-     After that the user enter into searched college page or at a page where the same type of colleges are displayed. At that the user have the choice to filter about different facilities like grading, teacher capacity, awards, placement record etc.
-     
-     After the filtration user can access the college or university by his/her choice and finally enter into the main page to the specific college or university. At that page the user can get different  information and facilities available in the campus like award, grade, require entrance exam, the college’s website link , feedback of student who are already pass out etc.
-     
-    Our overall intension is to execute enter, search & filter option.
+   When the user opens the website  and reach at the homepage the user has has the choice to search about different colleges and universities by their name or class like engineering collegesor medical college etc.
+   After that the user enter into searched college page or at a page where the same type of colleges are displayed. At that the user have the choice to filter about different facilities like grading, teacher capacity, awards, placement record etc.
+   After the filtration user can access the college or university by his/her choice and finally enter into the main page to the specific college or university. At that page the user can get different  information and facilities available in the campus like award, grade, require entrance exam, the college’s website link , feedback of student who are already pass out etc.
+   Our overall intension is to execute enter, search & filter option.
     
 
+REQUIREMENTS!
+--------------------
+HARDWARE:
+MINI INTEL CORE i3 7th GEN/RYZEN 3/ios 
+2GB RAM
+256GB SSD
+NO GRAPHICS CARD IS REQUIRED 
+COMPATIBLE IN BOTH 32biT AS WELL AS 64bit
+
+
+
+![image](https://user-images.githubusercontent.com/111687485/215305959-7225ca82-4650-4690-b3bc-f1e7ea120f60.png)
