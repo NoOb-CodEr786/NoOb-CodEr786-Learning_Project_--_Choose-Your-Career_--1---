@@ -43,6 +43,4 @@ FLOW CHART
 
 
 
-
-![FLOW CHART](https://user-images.githubusercontent.com/111687485/215306152-51662aa5-8642-48b6-a42c-5fa104548c23.jpg)
-
+![FLOW CHART](https://user-images.githubusercontent.com/111687485/215306227-004b7a85-8ca0-4dac-a408-b9b5321dc4ef.jpg)
