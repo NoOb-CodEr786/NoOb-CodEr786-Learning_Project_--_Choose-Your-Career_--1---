@@ -37,10 +37,14 @@ CHROME / EDGE (DEVELOPER TOOL)
 ANY TYPE OF WEB BROWSER (CHROME / EDGE / SAFARI)
 
 
-FLOW CHART
+FLOW CHART!
 ---------------
 
-![image](https://user-images.githubusercontent.com/111687485/215306042-ea362744-f621-4e99-a21d-543da38e27d0.png)
+
+
+[FLOW CHART](https://user-images.githubusercontent.com/111687485/215306128-049cb3aa-87cc-469e-9ae4-f81d90e4a6f4.jpg)
+
+
 
 
 
