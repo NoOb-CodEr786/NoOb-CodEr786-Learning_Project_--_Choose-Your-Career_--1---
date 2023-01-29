@@ -16,12 +16,32 @@ ABOUT THIS WEBSITE!
 REQUIREMENTS!
 --------------------
 HARDWARE:
+----
 MINI INTEL CORE i3 7th GEN/RYZEN 3/ios 
+
 2GB RAM
+
 256GB SSD
-NO GRAPHICS CARD IS REQUIRED 
+
+NO GRAPHICS CARD IS REQUIRED
+
 COMPATIBLE IN BOTH 32biT AS WELL AS 64bit
 
 
+SOFTWARE:
+-----------------
+A TEXT EDITOR ( VS COEDE)
 
-![image](https://user-images.githubusercontent.com/111687485/215305959-7225ca82-4650-4690-b3bc-f1e7ea120f60.png)
+CHROME / EDGE (DEVELOPER TOOL)
+
+ANY TYPE OF WEB BROWSER (CHROME / EDGE / SAFARI)
+
+
+FLOW CHART
+---------------
+
+![image](https://user-images.githubusercontent.com/111687485/215306042-ea362744-f621-4e99-a21d-543da38e27d0.png)
+
+
+
+
