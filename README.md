@@ -8,8 +8,11 @@ In this materialistic  era everyone is confused. Confused to find out a suitable
 ABOUT THIS WEBSITE!
 -------------------------
      When the user opens the website  and reach at the homepage the user has has the choice to search about different colleges and universities by their name or class like engineering collegesor medical college etc.
+     
      After that the user enter into searched college page or at a page where the same type of colleges are displayed. At that the user have the choice to filter about different facilities like grading, teacher capacity, awards, placement record etc.
+     
      After the filtration user can access the college or university by his/her choice and finally enter into the main page to the specific college or university. At that page the user can get different  information and facilities available in the campus like award, grade, require entrance exam, the college’s website link , feedback of student who are already pass out etc.
+     
     Our overall intension is to execute enter, search & filter option.
     
 
