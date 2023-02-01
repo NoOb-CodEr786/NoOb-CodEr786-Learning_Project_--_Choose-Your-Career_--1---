@@ -40,7 +40,9 @@ ANY TYPE OF WEB BROWSER (CHROME / EDGE / SAFARI)
 FLOW CHART
 ---------------
 
-
-
-
 ![FLOW CHART](https://user-images.githubusercontent.com/111687485/215306227-004b7a85-8ca0-4dac-a408-b9b5321dc4ef.jpg)
+
+
+
+
+
